@@ -1,0 +1,149 @@
+[
+  {
+    "component": "Hello",
+    "python_spec": {
+      "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+      "target": "Hello",
+      "start_line": 11,
+      "end_line": 18
+    },
+    "xml_spec": {
+      "file": "spec-build/spec-4236519a509c9e07ac8b.xml",
+      "line": 3
+    },
+    "generated_code": [
+      {
+        "file": "/usr/backup-working/work/hello-tool/main.py",
+        "line": 2
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/.opencode/tools/hello-tool.ts",
+        "line": 5
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/.opencode/tools/hello-tool.ts",
+        "line": 8
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+        "line": 11
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+        "line": 15
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+        "line": 21
+      }
+    ]
+  },
+  {
+    "component": "Tool",
+    "python_spec": {
+      "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+      "target": "Tool",
+      "start_line": 8,
+      "end_line": 9
+    },
+    "xml_spec": {
+      "file": "spec-build/spec-4236519a509c9e07ac8b.xml",
+      "line": 34
+    },
+    "generated_code": [
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+        "line": 8
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+        "line": 11
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+        "line": 21
+      }
+    ]
+  },
+  {
+    "component": "Err",
+    "python_spec": {
+      "file": "/usr/backup-working/work/hello-tool/spec/err.py",
+      "target": "Err",
+      "start_line": 7,
+      "end_line": 13
+    },
+    "xml_spec": {
+      "file": "spec-build/spec-4236519a509c9e07ac8b.xml",
+      "line": 42
+    },
+    "generated_code": [
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/err.py",
+        "line": 2
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/err.py",
+        "line": 7
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/err.py",
+        "line": 10
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/err.py",
+        "line": 18
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/err.py",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "component": "Requirement",
+    "python_spec": {
+      "file": "/usr/backup-working/work/hello-tool/.venv/lib/python3.13/site-packages/libspec/spec.py",
+      "target": "Requirement",
+      "start_line": 816,
+      "end_line": 831
+    },
+    "xml_spec": {
+      "file": "spec-build/spec-4236519a509c9e07ac8b.xml",
+      "line": 50
+    },
+    "generated_code": [
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/err.py",
+        "line": 5
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/err.py",
+        "line": 15
+      },
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/err.py",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "component": "HelloPython",
+    "python_spec": {
+      "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+      "target": "HelloPython",
+      "start_line": 21,
+      "end_line": 30
+    },
+    "xml_spec": {
+      "file": "spec-build/spec-4236519a509c9e07ac8b.xml",
+      "line": 58
+    },
+    "generated_code": [
+      {
+        "file": "/usr/backup-working/work/hello-tool/spec/app.py",
+        "line": 21
+      }
+    ]
+  }
+]
