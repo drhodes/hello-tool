@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<specification_set date-created="2026-05-08T16:43:25.199784-07:00" libspec-version="2.1.2">
+  <specification type="Hello" ref="spec.app.Hello">
+    <source target="Hello" file="/usr/backup-working/work/hello-tool/spec/app.py"/>
+    <docstring>This tool should shell out to the command line and do:
+
+$ echo Hello World!
+
+The tool should have filename: "hello-tool.ts"</docstring>
+    <context>
+      <req_id>spec.app.Hello</req_id>
+      <title>Hello</title>
+    </context>
+    <inherits>
+      <ref>spec.app.Tool</ref>
+      <ref>spec.err.Err</ref>
+      <ref>libspec.spec.Requirement</ref>
+    </inherits>
+    <effective_req_ids>
+      <id>spec.app.Hello</id>
+      <id>spec.app.Tool</id>
+      <id>spec.err.Req</id>
+    </effective_req_ids>
+    <delta_requirements>
+      <notes>This tool should shell out to the command line and do:
+
+$ echo Hello World!
+
+The tool should have filename: "hello-tool.ts"</notes>
+      <req_id>spec.app.Hello</req_id>
+      <title>Hello</title>
+    </delta_requirements>
+  </specification>
+  <specification type="Tool" ref="spec.app.Tool" dependency="true" template="false">
+    <source target="Tool" file="/usr/backup-working/work/hello-tool/spec/app.py"/>
+    <docstring_template>This is a tool for use with opencode.</docstring_template>
+    <inherits>
+      <ref>spec.err.Err</ref>
+      <ref>libspec.spec.Requirement</ref>
+    </inherits>
+  </specification>
+  <specification type="Err" ref="spec.err.Err" dependency="true" template="false">
+    <source target="Err" file="/usr/backup-working/work/hello-tool/spec/err.py"/>
+    <docstring_template>It is important that error handling be done excellently. If a
+function can fail, then it needs to do so in the most elegant way
+possible. Error reporting, handling, exceptions and all aspects
+of failure must be taken to extreme. It should be possible to
+understand the program by reading the error messages.</docstring_template>
+  </specification>
+  <specification type="Requirement" ref="libspec.spec.Requirement" dependency="true" template="true">
+    <source target="Requirement" file="/usr/backup-working/work/hello-tool/.venv/lib/python3.13/site-packages/libspec/spec.py"/>
+    <docstring_template>Requirement
+TITLE: {{title}}
+REQUIREMENT-ID: {{req_id}}
+
+Insert REQUIREMENT-ID into any source code for cross reference purposes.</docstring_template>
+  </specification>
+  <specification type="HelloPython" ref="spec.app.HelloPython">
+    <source target="HelloPython" file="/usr/backup-working/work/hello-tool/spec/app.py"/>
+    <docstring>This tool should shell out to the command line and run:
+$ uv run main.py
+
+From the project root: 
+The tool should have filename: "hello-python-tool.ts"</docstring>
+    <context>
+      <req_id>spec.app.HelloPython</req_id>
+      <title>HelloPython</title>
+    </context>
+    <inherits>
+      <ref>spec.app.Tool</ref>
+      <ref>spec.err.Err</ref>
+      <ref>libspec.spec.Requirement</ref>
+    </inherits>
+    <effective_req_ids>
+      <id>spec.app.HelloPython</id>
+      <id>spec.app.Tool</id>
+      <id>spec.err.Req</id>
+    </effective_req_ids>
+    <delta_requirements>
+      <notes>This tool should shell out to the command line and run:
+$ uv run main.py
+
+From the project root: 
+The tool should have filename: "hello-python-tool.ts"</notes>
+      <req_id>spec.app.HelloPython</req_id>
+      <title>HelloPython</title>
+    </delta_requirements>
+  </specification>
+  <specification type="HelloXPath" ref="spec.app.HelloXPath">
+    <source target="HelloXPath" file="/usr/backup-working/work/hello-tool/spec/app.py"/>
+    <docstring>This tool should shell out to the command line and run:
+$ uv run xpath.py &lt;query&gt;
+
+The tool should open a random .xml file from the directory
+
+./spec-build/spec-4236519a509c9e07ac8b.xml
+
+Then it should run the query on it.
+
+The tool should have filename: "hello-xpath.ts"</docstring>
+    <context>
+      <req_id>spec.app.HelloXPath</req_id>
+      <title>HelloXPath</title>
+    </context>
+    <inherits>
+      <ref>spec.app.Tool</ref>
+      <ref>spec.err.Err</ref>
+      <ref>libspec.spec.Requirement</ref>
+    </inherits>
+    <effective_req_ids>
+      <id>spec.app.HelloXPath</id>
+      <id>spec.app.Tool</id>
+      <id>spec.err.Req</id>
+    </effective_req_ids>
+    <delta_requirements>
+      <notes>This tool should shell out to the command line and run:
+$ uv run xpath.py &lt;query&gt;
+
+The tool should open a random .xml file from the directory
+
+./spec-build/spec-4236519a509c9e07ac8b.xml
+
+Then it should run the query on it.
+
+The tool should have filename: "hello-xpath.ts"</notes>
+      <req_id>spec.app.HelloXPath</req_id>
+      <title>HelloXPath</title>
+    </delta_requirements>
+  </specification>
+</specification_set>
