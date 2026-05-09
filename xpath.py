@@ -17,7 +17,7 @@ def main():
         print("No XML files found in ./spec-build/", file=sys.stderr)
         sys.exit(1)
 
-    random_file = random.choice(xml_files)
+    random_file = "./spec-build/program.xml" # random.choice(xml_files)
     tree = etree.parse(random_file)
 
     results = tree.xpath(query)
